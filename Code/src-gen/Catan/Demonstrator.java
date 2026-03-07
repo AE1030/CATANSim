@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Demonstrator {
     public static void main(String[] args) throws Exception {
-        Config cfg = Config.load("config.txt");
+        Config cfg = Config.load("Code/src-gen/config.txt");
 
         Board board = new Board();
         List<Player> players = List.of(
